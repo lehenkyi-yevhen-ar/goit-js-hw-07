@@ -27,5 +27,9 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    transition: background-color 0.3s ease-out;
+}
 
+.change-color:hover {
+    background-color: #6c8cff;
 }

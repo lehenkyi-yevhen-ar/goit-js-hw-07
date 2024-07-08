@@ -35,7 +35,13 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    transition: background-color 0.3s ease-out;
 }
+
+.create:hover {
+    background-color: #6c8cff;
+}
+
 .destroy {
     border-radius: 8px;
     padding: 8px 16px;
@@ -48,4 +54,9 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    transition: background-color 0.3s ease-out;
+}
+
+.destroy:hover {
+    background-color: #ff7070;
 }
