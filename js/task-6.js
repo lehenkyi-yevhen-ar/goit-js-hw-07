@@ -6,7 +6,8 @@ const boxContainer = document.querySelector('#boxes')
 create.addEventListener('click', createBoxes);
 destroy.addEventListener('click', () => {
   boxContainer.innerHTML = ''})
-
+destroy.addEventListener('click', () => {
+  input.value = ''})
 
 function createBoxes() {
   let amount = input.value;

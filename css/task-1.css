@@ -1,0 +1,54 @@
+
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.title {
+    padding-left: 16px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.elements {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 16px;
+}
+
+.categ-elem {
+    border: 1px solid #808080;
+border-radius: 4px;
+padding-top: 8px;
+padding-left: 16px;
+padding-bottom: 8px;
+width: 360px;
+}
+
+
+.item {
+    border-radius: 8px;
+    width: 392px;
+    height: 264px;
+    background: #f6f6fe;
+    padding-bottom: 24px;
+}

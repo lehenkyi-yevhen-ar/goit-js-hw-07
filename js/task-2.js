@@ -31,7 +31,7 @@ function createGalleryMarkup(images){
   return images
 .map((image) =>
 `<li class='gallery-item'>
-<img src='${image.url}' alt='${image.alt} class='gallery-image'>
+<img src='${image.url}' alt='${image.alt} class='gallery-image' width = '360' height = '300'>
 </li>`
 ).join('');
 }
